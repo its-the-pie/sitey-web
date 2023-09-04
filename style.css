@@ -77,6 +77,7 @@ img.rounded-corners {
   border-left: 2px solid #225320;
   padding: 10px 20px;
   transition: 0.25s linear;
+  display: block;
 } 
 
 .button2:hover{ 
