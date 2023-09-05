@@ -65,6 +65,7 @@ img.rounded-corners {
 }
 
 .button2 {
+  display: block;
   border-radius: 5px;
   font: bold 1.375em monospace;
   text-decoration: none;
