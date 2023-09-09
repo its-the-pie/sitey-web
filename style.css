@@ -40,7 +40,6 @@ img.rounded-corners {
 #border {
   padding-right: 10%;
   padding-left: 10%;
-  align-items: center;
 }
 
 .button {
@@ -55,9 +54,11 @@ img.rounded-corners {
   border-bottom: 2px solid #739878;
   border-left: 2px solid #739878;
   padding: 10px 20px;
-  transition: 0.25s linear;} 
+  transition: transform .3s;} 
 
-.button:hover{ background-color: #c1dcab; 
+.button:hover{ 
+  transform: scale(1.2);
+  background-color: #c1dcab; 
   border-top: 2px solid #225320;
   border-right: 2px solid #021104;
   border-bottom: 2px solid #021104;
@@ -97,8 +98,6 @@ img.rounded-corners {
 }
 
 #outer-div {
-  padding-top: 50px;
-  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -159,21 +158,6 @@ li {
   width: 50%;
   float: left;
   padding: 20px;
-}
-
-.home-container {
-  overflow-wrap: break-word;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 30px;
-  border-radius: 15px;
-  width: 60%;
-  text-align: center;
-  border-top: 3px solid #739878;
-  border-right: 3px solid #021104;
-  border-bottom: 3px solid #021104;
-  border-left: 3px solid #739878;  
-  background-color: #739878;
 }
 
 #piczoom {
