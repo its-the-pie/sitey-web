@@ -1,11 +1,12 @@
+/*run command is "npx serve"*/
 html {
   height: 100%;
   width: 100%;
 }
 
 body{
-  background-color: #cce8b5;
-  color: #150101;
+  background-color: #f2f2f2;
+  color: #080808;  
   font-family: monospace;
 }
 
@@ -46,13 +47,13 @@ img.rounded-corners {
   border-radius: 5px;
   font: bold 1.375em monospace;
   text-decoration: none;
-  background-color: #739878;
+  background-color: #d6d6d6;
   color: #000000;
   padding: 2px 6px 2px 6px;
-  border-top: 2px solid #739878;
-  border-right: 2px solid #739878;
-  border-bottom: 2px solid #739878;
-  border-left: 2px solid #739878;
+  border-top: 2px solid #080808;
+  border-right: 2px solid #7a7a7a;
+  border-bottom: 2px solid #606060;
+  border-left: 2px solid #080808;
   padding: 10px 20px;
   transition: transform .3s;} 
 
@@ -63,7 +64,7 @@ img.rounded-corners {
   border-right: 2px solid #021104;
   border-bottom: 2px solid #021104;
   border-left: 2px solid #225320;
-  color: #000000; 
+  color: #080808; 
 }
 
 .button2 {
@@ -71,13 +72,13 @@ img.rounded-corners {
   border-radius: 5px;
   font: bold 1.375em monospace;
   text-decoration: none;
-  background-color: #739878;
-  color: #000000;
+  background-color: #d6d6d6;
+  color: #080808;
   padding: 2px 6px 2px 6px;
-  border-top: 2px solid #225320;
-  border-right: 2px solid #021104;
-  border-bottom: 2px solid #021104;
-  border-left: 2px solid #225320;
+  border-top: 2px solid #080808;
+  border-right: 2px solid #7a7a7a;
+  border-bottom: 2px solid #606060;
+  border-left: 2px solid #080808;
   padding: 10px 20px;
   transition: 0.25s linear;
   display: block;
@@ -132,11 +133,11 @@ li {
   border-radius: 15px;
   width: 33%;
   text-align: center;
-  border-top: 3px solid #739878;
-  border-right: 3px solid #021104;
-  border-bottom: 3px solid #021104;
-  border-left: 3px solid #739878;  
-  background-color: #739878;
+  border-top: 2px solid #080808;
+  border-right: 2px solid #7a7a7a;
+  border-bottom: 2px solid #606060;
+  border-left: 2px solid #080808;
+  background-color: #d6d6d6; 
 }
 
 .container:hover {
@@ -147,11 +148,11 @@ li {
   padding: 20px;
   border-radius: 15px;
   width: 75%;
-  border-top: 3px solid #739878;
-  border-right: 3px solid #021104;
-  border-bottom: 3px solid #021104;
-  border-left: 3px solid #739878;  
-  background-color: #739878;
+  border-top: 3px solid #080808;
+  border-right: 3px solid #7a7a7a;
+  border-bottom: 3px solid #606060;
+  border-left: 3px solid #080808;
+  background-color: #d6d6d6; 
 }
 
 .vid-container-child {
